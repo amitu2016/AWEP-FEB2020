@@ -15,6 +15,16 @@
     <button onclick="commentHere()">Comment now</button>
     <div id="commentBox">
         <!-- To add new comment -->
+        
+        <div id="referenceCommentId"
+        style="
+          display: flex;
+          justify-content: space-between;
+          visibility: hidden;
+        ">
+            <div>Sample Comment</div>
+            <button onclick="deleteComment(this)">Delete</button>
+        </div>
     </div>
 </body>
 </html>
